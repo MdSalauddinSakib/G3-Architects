@@ -49,3 +49,60 @@ header styles
     color: black;
 }
 
+/*---------------
+section-2 srtyle
+-----------------*/
+
+.section-2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 70px;
+}
+
+.section-2-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-left: 30px;
+}
+
+.section-2-description {
+    margin-top: 180px;
+}
+
+.quick-list {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.quick-list strong {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.quick-list b {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick-list-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section-2 .explore {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 8px;
+    border-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    margin-top: 30px;
+}
