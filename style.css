@@ -139,18 +139,19 @@ section-3 srtyle
     color: #727272;
 }
 
-.box{
+.zbox {
     padding-left: 20px;
     padding-top: 40px;
     box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.308);
 }
-.box h3 {
+
+.zbox h3 {
     font-weight: 600;
     font-size: 20px;
     color: #131313;
 }
 
-.box p {
+.zbox p {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -172,7 +173,7 @@ section-3 srtyle
     font-size: 65px;
 }
 
-.btn button{
+.btn button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -186,4 +187,87 @@ section-3 srtyle
     border-radius: 5px;
     text-align: center;
     margin-left: 120px;
-  }
+}
+
+/* -------------
+  section-4 style  
+  ---------------*/
+
+.section-4 {
+    margin-left: 150px;
+}
+
+.facts h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/* section-5 style  */
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.box {
+    color: #424242;
+    width: 241.83px;
+    height: 241.83px;
+    left: 897.92px;
+    top: 3663.08px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.box h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.box p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* section-6 style  */
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsor p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.sponsore-img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
