@@ -55,6 +55,7 @@ section-2 srtyle
 
 .section-2 {
     margin-top: 50px;
+    margin-bottom: 130px;
     display: flex;
     gap: 70px;
 }
@@ -105,4 +106,84 @@ section-2 srtyle
     width: 180px;
     height: 64px;
     margin-top: 30px;
+    cursor: pointer;
 }
+
+.explore:hover {
+    background-color: black;
+}
+
+/*---------------
+section-3 srtyle
+-----------------*/
+
+.section-3 {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.features .vl {
+    background: #FF900E;
+    border-left: 6px solid green;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.features p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.box{
+    padding-left: 20px;
+    padding-top: 40px;
+    box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.308);
+}
+.box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.box p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn .button {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 45px;
+}
+
+.button strong {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.btn button{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 120px;
+  }
