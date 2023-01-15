@@ -229,6 +229,7 @@ section-3 srtyle
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 30px;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .box h2 {
@@ -240,6 +241,13 @@ section-3 srtyle
     font-weight: 600;
     font-size: 20px;
     color: #727272;
+}
+
+.box:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+    background-color: coral;
 }
 
 /* section-6 style  */
@@ -260,6 +268,8 @@ section-3 srtyle
     color: #727272;
 }
 
+/* section-7 style  */
+
 .logo {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -270,4 +280,33 @@ section-3 srtyle
 .sponsore-img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+/* section-8 bonus section style  */
+.bonus{
+    font-family: 'Lobster', cursive;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #FF5959;;
+    background: #0B0D17;
+    padding: 50px;
+}
+
+
+/* section-9 style  */
+.footer{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer p {
+    text-align: center;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    
 }
